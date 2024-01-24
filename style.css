@@ -43,7 +43,7 @@ body{
   background-image:linear-gradient(to bottom,black 50%,red);
 }
 .but{
-  margin-top: 20px;
+  margin-top: 50px;
   display: flex;
   justify-content: space-evenly;
 }
@@ -108,12 +108,12 @@ h1{
     margin-left: 20%;
   }
   .user{
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
   .but{
     display: block;
-    margin-top: 200px;
-    margin-left:20%;
+    margin-top: 175px;
+    margin-left:22%;
   }
   .pot{
     visibility: hidden;
