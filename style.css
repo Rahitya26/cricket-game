@@ -1,0 +1,121 @@
+body{
+  margin: 0;
+   background-image: radial-gradient(red,black);
+  color:ghostwhite
+}
+.cont{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  gap: 100px;
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+}
+.res{
+  margin:auto;
+  font-size: 20px;
+  width: 70px;
+  height:70px;
+  color:black;
+  background-color: darkgrey;
+  border-radius: 50%;
+  display:none;
+  box-shadow: 3px 3px 3px black;
+}
+#re{
+  font-size: 30px;
+  font-family:Monoton;
+  text-align:center;
+  color:floralwhite;
+}
+.he{
+  font-size: 20px;
+  font-family:Rubik Doodle Shadow;
+  color:white;
+  height: 100px;
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+  background-image:linear-gradient(to bottom,black 50%,red);
+}
+.but{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.btn{
+  box-shadow: 3px 3px 3px black;
+  color: white;
+  border: 4px double white;
+  background-color: black;
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+}
+img{
+  width:200px;
+  height: 200px;
+  border-radius:12%;
+}
+.pot{
+  display: flex;
+  justify-content: center;
+  gap: 18%;
+}
+.user{
+  border-radius: 15%;
+  border:13px solid black;
+  width: 200px;
+  height: 200px;
+  box-shadow:2px 2px 2px black;
+}
+.com{
+  border-radius: 15%;
+  border:13px solid black;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 200px;
+  box-shadow:2px 2px 2px black;
+}
+h1{
+  text-align: center;
+}
+.score{
+  display: flex;
+  font-family: cursive;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  padding:10px;
+  border: 3px dashed black;
+}
+.tb{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  height: 30vh;
+}
+
+@media(max-width:418px){
+  .cont{
+    display:block;
+    margin-left: 20%;
+  }
+  .user{
+    margin-bottom: 20px;
+  }
+  .but{
+    display: block;
+    margin-top: 200px;
+    margin-left:20%;
+  }
+  .pot{
+    visibility: hidden;
+  }
+}
