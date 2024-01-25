@@ -113,7 +113,7 @@ h1{
   .but{
     display: block;
     margin-top: 100px;
-    margin-left:23%;
+    margin:auto;
   }
   .pot{
     visibility: hidden;
